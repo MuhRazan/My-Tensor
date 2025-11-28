@@ -1,0 +1,26 @@
+<!DOCTYPE html>  
+<html lang="id">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Kenangan Bersama</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+    <header>  
+        <h1>Album Kenangan</h1>  
+    </header>  
+    <main class="gallery">  
+        <!-- Contoh foto (ulangi untuk setiap foto) -->  
+        <img src="assets/images/kenangan1.jpg" alt="Deskripsi kenangan" onclick="openModal(this.src)">  
+        <img src="assets/images/kenangan2.jpg" alt="Deskripsi kenangan" onclick="openModal(this.src)">  
+    </main>  
+    
+    <!-- Modal container -->  
+    <div id="modal" class="modal" onclick="closeModal()">  
+        <img class="modal-content" id="modal-img">  
+    </div>  
+
+    <script src="script.js"></script>  
+</body>  
+</html>  
